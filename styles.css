@@ -8,6 +8,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
