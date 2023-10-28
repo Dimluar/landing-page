@@ -12,14 +12,18 @@ body {
   margin: 0;
 }
 
-.header {
+.header,
+.footer {
   background-color: #1f2937;
+}
+
+.header {
   color: #f9faf8;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 18px 12vw 80px;
+  padding: 18px 12vw 96px;
   gap: 80px;
 }
 
@@ -33,7 +37,8 @@ body {
 
 .header-link,
 .header-text p,
-.btn {
+.btn,
+.footer p {
   color: #e5e7eb;
 }
 .header-link {
@@ -102,4 +107,41 @@ body {
   font-size: 18px;
   font-weight: bold;
   padding: 8px 32px;
+}
+
+.information {
+  text-align: center;
+  padding: 52px 16vw;
+}
+
+.information h2,
+.quote p {
+  color: #1f2937;
+}
+
+.information h2 {
+  margin: 0;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 52px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.item-img {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto 8px;
+  border: cornflowerblue solid 4px;
+  border-radius: 8px;
+}
+
+.item p {
+  color: #6d757e;
+  margin: 0;
 }
